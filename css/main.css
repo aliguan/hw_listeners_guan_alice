@@ -1,6 +1,10 @@
 body {
     background-color: slategray;
+    background-image: url("../img/dreamdog.jpg");
+    background-size: cover;
     margin-top: 10%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .container {
@@ -10,10 +14,11 @@ body {
 
 form {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     width: 50%;
     margin: auto;
-    box-shadow: -2px 2px 6px #888888;
+    box-shadow: -2px 2px 6px black;
+    border-radius: 5px;
 }
 
 label {
@@ -31,4 +36,5 @@ textarea {
 
 button {
     border-radius: 5px;
+    background-color: #f8f8f8;
 }
