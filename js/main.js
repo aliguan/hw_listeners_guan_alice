@@ -1,11 +1,11 @@
-formsub.addEventListener( 'submit', function( evt ) {
-    evt.preventDefault();
-    console.log( 'The firstName is: ' +
-    document.getElementById( 'formsub' ).elements.namedItem( 'firstName' ).value );
-    console.log( 'The lastName is: ' +
-    document.getElementById( 'formsub' ).elements.namedItem( 'lastName' ).value );
-    console.log( 'The email is: ' +
-    document.getElementById( 'formsub' ).elements.namedItem( 'email' ).value );
-    console.log( 'The message is: ' +
-    document.getElementById( 'formsub' ).elements.namedItem( 'message' ).value );
+/* click picture to change puppy to older heeler */
+pup.addEventListener( 'click', function addpic() {
+    /* creates new image element and definites var */
+    var bigheeler = document.createElement( 'img' );
+
+    /* set path to image */
+    bigheeler.src = 'img/bigheeler.jpg';
+
+    /* select the first paragraph and add the picture after that element */
+    document.getElementsByClassName( 'para' )[ 0 ].appendChild( bigheeler );
 } );
