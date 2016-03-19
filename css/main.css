@@ -18,3 +18,7 @@ img {
     max-width: 400px;
     display: block;
 }
+
+.invert {
+    color: purple;
+}
