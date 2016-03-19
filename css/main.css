@@ -22,3 +22,9 @@ img {
 .invert {
     color: purple;
 }
+
+h3 {
+    color: #00a885;
+    font-style: italic;
+    text-align: center;
+}
